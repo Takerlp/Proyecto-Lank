@@ -37,9 +37,34 @@ body {
     
 }
 
-.loguito_home {
+.logo_redes {
   filter: invert(1);
-  width: auto; /*ver que quede bien el loguito con el "auto"*/
+  width: 1.5em;
+  
+
+}
+
+.liredes {
+  margin: 0;
+  padding: 0.3em;
+  color: #000;
+
+}
+
+.ulnav_redes {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin-left: 3vw; /*ver que no cause errores*/
+  
+}
+
+.logo {
+  filter: invert(1);
+  width: 25em; /*ver que quede bien el loguito con el "auto"*/
+  height: 25em;
+  flex-wrap: wrap;
 
 }
 
@@ -54,15 +79,16 @@ body {
 
 }
 
-ul {
+.ulnav {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
   padding: 0;
+  margin-right: 3vw; /*ver que no cause errores*/
   
 }
 
-li {
+.linav {
   margin: 0;
   padding: 0.3em;
   color: #000;
@@ -73,7 +99,7 @@ a {
   color: #f2f2f2;
 }
 
-li:hover{
+.linav:hover{
   color: #fff;
 transition-duration: 0.5s;
 border-bottom: #f2f2f2 solid 0.5px;
