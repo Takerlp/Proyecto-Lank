@@ -62,10 +62,14 @@ body {
 
 .logo {
   filter: invert(1);
-  width: 25em; /*ver que quede bien el loguito con el "auto"*/
-  height: 25em;
+  width: auto; /*ver que quede bien el loguito con el "auto"*/
+  height: 12em;
   flex-wrap: wrap;
+  transition-duration: 1s;
+}
 
+.logo:hover {
+  height: 18em;
 }
 
 
