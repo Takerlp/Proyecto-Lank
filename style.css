@@ -127,7 +127,8 @@ a {
    grid-area: main;
    display: flex;
    flex-wrap: wrap;
-   justify-content: center;
+   align-items: center;
+   flex-direction: column;
         
     
 }
@@ -136,6 +137,38 @@ a {
 .video_inicio {
    margin-top: 5em;
    
+
+}
+
+.titulos_secciones {
+ color:#f2f2f2;
+ font-family: "Anybody";
+ font-weight: 900;
+ font-size: 2em;
+ /*background-color: rgba(2, 29, 54, 0.342);*/
+ /*background: linear-gradient(to right, #373b44, #4286f4);*/
+ width: 100%;
+ text-align: center;
+ display: inline-block;
+ position: relative;
+ 
+}
+
+.titulos_secciones::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* Coloca el subrayado en el centro horizontal */
+  transform: translateX(-50%); /* Centra el subrayado */
+  bottom: -0.2em; /* Controla la distancia del subrayado al texto */
+  width: 30em; /* Ocupa todo el ancho disponible */
+  height: 4px; /* Grosor del subrayado */
+  background: linear-gradient(to right, #111111, #4286f4, #111111); /* Color del subrayado */
+  
+}
+
+.player_spotify {
+  width: 33em;
+  
 }
 
 
