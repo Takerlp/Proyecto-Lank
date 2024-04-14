@@ -6,6 +6,13 @@ body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #111111;
+    
+}
+
+
+a::selection {
+  background-color: #ffbc04cc; /* cambia color de los a seleccionados*/
+ 
 }
 
 
@@ -28,7 +35,7 @@ body {
 
 .header {
     display: flex;
-    background: rgb(29, 29, 29);
+    background: #111111;
     grid-area: header;
     flex-direction: row;
     position: sticky;
@@ -47,7 +54,7 @@ body {
 .liredes {
   margin: 0;
   padding: 0.3em;
-  color: #000;
+  color: #111111;
 
 }
 
@@ -63,13 +70,13 @@ body {
 .logo {
   filter: invert(1);
   width: auto; /*ver que quede bien el loguito con el "auto"*/
-  height: 12em;
+  height: 7em;
   flex-wrap: wrap;
-  transition-duration: 1s;
+  transition-duration: 0.7s;
 }
 
 .logo:hover {
-  height: 18em;
+  height: 9em;
 }
 
 
@@ -95,7 +102,7 @@ body {
 .linav {
   margin: 0;
   padding: 0.3em;
-  color: #000;
+  color: #111111;
 }
 
 a {
@@ -105,8 +112,8 @@ a {
 
 .linav:hover{
   color: #fff;
-transition-duration: 0.5s;
-border-bottom: #f2f2f2 solid 0.5px;
+  transition-duration: 0.5s;
+  border-bottom: #f2f2f2 solid 0.5px;
 
 }
 
@@ -115,23 +122,24 @@ border-bottom: #f2f2f2 solid 0.5px;
     grid-area: aside;
 }
 */
- main {
-   /* background: rgb(231,44,154);
-background: linear-gradient(90deg, rgba(231,44,154,1) 0%, rgba(201,50,161,1) 5%, rgba(135,62,176,1) 45%, rgba(141,169,116,1) 74%, rgba(134,219,73,1) 100%);
-    */
-    /*background-color: rgb(89, 36, 138) ;*/
-    background: rgb(2,0,36);
-    background: linear-gradient(1deg, rgba(2,0,36,1) 0%, rgba(76,9,121,1) 39%, rgba(222,7,181,1) 100%);
-
-    grid-area: main;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    
-     
+.main {
+  
+   grid-area: main;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+        
     
 }
+
+
+.video_inicio {
+   margin-top: 5em;
+   
+}
+
+
+
 
 .container footer {
     display: flex;
