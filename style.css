@@ -73,10 +73,12 @@ a::selection {
   height: 7em;
   flex-wrap: wrap;
   transition-duration: 0.7s;
+  aspect-ratio: 457/314;
 }
 
 .logo:hover {
   height: 9em;
+  aspect-ratio: 457/314;
 }
 
 
