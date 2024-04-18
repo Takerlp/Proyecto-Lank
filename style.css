@@ -39,10 +39,16 @@ a::selection {
     grid-area: header;
     flex-direction: row;
     position: sticky;
+    top: 0;
     justify-content: space-between;
+    z-index: 900;
+
+    
     
     
 }
+
+
 
 .logo_redes {
   filter: invert(1);
@@ -72,14 +78,27 @@ a::selection {
   width: auto; /*ver que quede bien el loguito con el "auto"*/
   height: 7em;
   flex-wrap: wrap;
-  transition-duration: 0.7s;
+  /*transition-duration: 0.7s;*/ /*para el hover*/
   aspect-ratio: 457/314;
+  animation: nav-movil linear both ;
+    animation-timeline: scroll(root);
+    animation-range: 0 200px;
+    
 }
 
-.logo:hover {
+@keyframes nav-movil {
+  to {
+    height: 50px;
+    
+  }
+}
+
+/*para anim hover*/
+/*.logo:hover {      
   height: 9em;
   aspect-ratio: 457/314;
-}
+  
+}*/
 
 
 .nav {
