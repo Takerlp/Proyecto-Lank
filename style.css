@@ -197,6 +197,7 @@ a::selection {
  display: inline-block;
  position: relative;
  
+ 
 }
 
 .titulos_secciones::after {
@@ -213,7 +214,7 @@ a::selection {
 
 .player_spotify {
   width: 33em;
-  padding: 4em 0 4em 0;
+  padding: 2em 0 4em 0;
   
 }
 
@@ -223,12 +224,15 @@ a::selection {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1em;
+  padding-top: 2em ;
   
 }
 
 
 .videos {
   width: 25em;
+  
+  
   
     
 }
