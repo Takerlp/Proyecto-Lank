@@ -243,6 +243,31 @@ a::selection {
 }
 
 
+.ul-sec-contact {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.li-sec-contact {
+  margin: 0;
+  padding: 0.3em;
+  color: #111111;
+  cursor: pointer;
+}
+
+.logos-contact {
+  filter: invert(1);
+  width: 3em;
+  transition: 0.2s;
+    
+}
+
+.logos-contact:hover {
+  width: 3.5em;
+}
+
 
 .container footer {
     display: flex;
