@@ -13,8 +13,8 @@ html {
 body {
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #111111;
-    
+    /*background: #111111;*/
+    background: #11111125;
 }
 
 
@@ -219,7 +219,7 @@ a::selection {
   bottom: -0.2em; /* Controla la distancia del subrayado al texto */
   width: 30em; /* Ocupa todo el ancho disponible */
   height: 4px; /* Grosor del subrayado */
-  background: linear-gradient(to right, #111111, #4286f4, #111111); /* Color del subrayado */
+  background: linear-gradient(to right, #11111100, #4286f4, #11111100); /* Color del subrayado */
   
 }
 
